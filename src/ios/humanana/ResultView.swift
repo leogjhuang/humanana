@@ -2,7 +2,7 @@
 //  ResultView.swift
 //  humanana
 //
-//  Created by Leo Huang on 2022-09-17.
+//  Created by Leo Huang on 2022-09-30.
 //
 
 import CoreML
@@ -24,11 +24,16 @@ extension UIImage {
 
         let imageData =  CVPixelBufferGetBaseAddress(imageBuffer)
 
-        guard let context = CGContext(data: imageData, width: Int(width), height:Int(height),
-                                      bitsPerComponent: 8, bytesPerRow: CVPixelBufferGetBytesPerRow(imageBuffer),
-                                      space: CGColorSpaceCreateDeviceGray(),
-                                      bitmapInfo: CGImageAlphaInfo.none.rawValue) else {
-                                        return nil
+        guard let context = CGContext(
+            data: imageData,
+            width: Int(width),
+            height:Int(height),
+            bitsPerComponent: 8,
+            bytesPerRow: CVPixelBufferGetBytesPerRow(imageBuffer),
+            space: CGColorSpaceCreateDeviceGray(),
+            bitmapInfo: CGImageAlphaInfo.none.rawValue) else
+        {
+            return nil
         }
 
         context.translateBy(x: 0, y: CGFloat(height))
@@ -96,13 +101,7 @@ struct ResultView: View {
                 if let selectedImage {
                     selectedImage
                         .resizable()
-                        .frame(width: 200, height: 200)
-                        .foregroundColor(.gray)
-                        .padding()
-                } else {
-                    Image(systemName: "photo.artframe")
-                        .resizable()
-                        .frame(width: 200, height: 200)
+                        .frame(width: 150, height: 200)
                         .foregroundColor(.gray)
                         .padding()
                 }

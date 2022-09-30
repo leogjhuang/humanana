@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6F8724328E6D81D00C543BB /* humananaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F8724228E6D81D00C543BB /* humananaApp.swift */; };
+		E6F8724728E6D81E00C543BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F8724628E6D81E00C543BB /* Assets.xcassets */; };
+		E6F8724A28E6D81E00C543BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F8724928E6D81E00C543BB /* Preview Assets.xcassets */; };
+		E6F8725128E6D85D00C543BB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F8725028E6D85D00C543BB /* StartView.swift */; };
+		E6F8725328E6D89B00C543BB /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F8725228E6D89B00C543BB /* ResultView.swift */; };
+		E6F8725528E6D92400C543BB /* Comfortaa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6F8725428E6D92400C543BB /* Comfortaa.ttf */; };
+		E6F8725728E6D93D00C543BB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F8725628E6D93D00C543BB /* CameraView.swift */; };
+		E6F8725928E6D95800C543BB /* bananaModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E6F8725828E6D95800C543BB /* bananaModel.mlmodel */; };
+		E6F8725B28E6D97400C543BB /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F8725A28E6D97400C543BB /* CaptureView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6F8723F28E6D81D00C543BB /* humanana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = humanana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F8724228E6D81D00C543BB /* humananaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = humananaApp.swift; sourceTree = "<group>"; };
+		E6F8724628E6D81E00C543BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6F8724928E6D81E00C543BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6F8725028E6D85D00C543BB /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		E6F8725228E6D89B00C543BB /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		E6F8725428E6D92400C543BB /* Comfortaa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comfortaa.ttf; sourceTree = "<group>"; };
+		E6F8725628E6D93D00C543BB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		E6F8725828E6D95800C543BB /* bananaModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = bananaModel.mlmodel; sourceTree = "<group>"; };
+		E6F8725A28E6D97400C543BB /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		E6F8725D28E6DAF800C543BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6F8723C28E6D81D00C543BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6F8723628E6D81D00C543BB = {
+			isa = PBXGroup;
+			children = (
+				E6F8724128E6D81D00C543BB /* humanana */,
+				E6F8724028E6D81D00C543BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6F8724028E6D81D00C543BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6F8723F28E6D81D00C543BB /* humanana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6F8724128E6D81D00C543BB /* humanana */ = {
+			isa = PBXGroup;
+			children = (
+				E6F8725D28E6DAF800C543BB /* Info.plist */,
+				E6F8724228E6D81D00C543BB /* humananaApp.swift */,
+				E6F8725628E6D93D00C543BB /* CameraView.swift */,
+				E6F8725A28E6D97400C543BB /* CaptureView.swift */,
+				E6F8725228E6D89B00C543BB /* ResultView.swift */,
+				E6F8725028E6D85D00C543BB /* StartView.swift */,
+				E6F8724628E6D81E00C543BB /* Assets.xcassets */,
+				E6F8725828E6D95800C543BB /* bananaModel.mlmodel */,
+				E6F8725C28E6DADE00C543BB /* Fonts */,
+				E6F8724828E6D81E00C543BB /* Preview Content */,
+			);
+			path = humanana;
+			sourceTree = "<group>";
+		};
+		E6F8724828E6D81E00C543BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E6F8724928E6D81E00C543BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E6F8725C28E6DADE00C543BB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E6F8725428E6D92400C543BB /* Comfortaa.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6F8723E28E6D81D00C543BB /* humanana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F8724D28E6D81E00C543BB /* Build configuration list for PBXNativeTarget "humanana" */;
+			buildPhases = (
+				E6F8723B28E6D81D00C543BB /* Sources */,
+				E6F8723C28E6D81D00C543BB /* Frameworks */,
+				E6F8723D28E6D81D00C543BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = humanana;
+			productName = humanana;
+			productReference = E6F8723F28E6D81D00C543BB /* humanana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6F8723728E6D81D00C543BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E6F8723E28E6D81D00C543BB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E6F8723A28E6D81D00C543BB /* Build configuration list for PBXProject "humanana" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6F8723628E6D81D00C543BB;
+			productRefGroup = E6F8724028E6D81D00C543BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6F8723E28E6D81D00C543BB /* humanana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6F8723D28E6D81D00C543BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F8724A28E6D81E00C543BB /* Preview Assets.xcassets in Resources */,
+				E6F8725528E6D92400C543BB /* Comfortaa.ttf in Resources */,
+				E6F8724728E6D81E00C543BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6F8723B28E6D81D00C543BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F8724328E6D81D00C543BB /* humananaApp.swift in Sources */,
+				E6F8725128E6D85D00C543BB /* StartView.swift in Sources */,
+				E6F8725928E6D95800C543BB /* bananaModel.mlmodel in Sources */,
+				E6F8725328E6D89B00C543BB /* ResultView.swift in Sources */,
+				E6F8725728E6D93D00C543BB /* CameraView.swift in Sources */,
+				E6F8725B28E6D97400C543BB /* CaptureView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E6F8724B28E6D81E00C543BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6F8724C28E6D81E00C543BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6F8724E28E6D81E00C543BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"humanana/Preview Content\"";
+				DEVELOPMENT_TEAM = WF9R877J65;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = humanana/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leogjhuang.humanana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6F8724F28E6D81E00C543BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"humanana/Preview Content\"";
+				DEVELOPMENT_TEAM = WF9R877J65;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = humanana/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leogjhuang.humanana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6F8723A28E6D81D00C543BB /* Build configuration list for PBXProject "humanana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F8724B28E6D81E00C543BB /* Debug */,
+				E6F8724C28E6D81E00C543BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F8724D28E6D81E00C543BB /* Build configuration list for PBXNativeTarget "humanana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F8724E28E6D81E00C543BB /* Debug */,
+				E6F8724F28E6D81E00C543BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6F8723728E6D81D00C543BB /* Project object */;
+}

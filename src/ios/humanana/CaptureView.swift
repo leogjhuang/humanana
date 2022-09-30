@@ -2,7 +2,7 @@
 //  CaptureView.swift
 //  humanana
 //
-//  Created by Leo Huang on 2022-09-17.
+//  Created by Leo Huang on 2022-09-30.
 //
 
 import PhotosUI
@@ -34,13 +34,7 @@ struct CaptureView: View {
                 if let selectedImage {
                     selectedImage
                         .resizable()
-                        .frame(width: 200, height: 200)
-                        .foregroundColor(.gray)
-                        .padding()
-                } else {
-                    Image(systemName: "photo.artframe")
-                        .resizable()
-                        .frame(width: 200, height: 200)
+                        .frame(width: 150, height: 200)
                         .foregroundColor(.gray)
                         .padding()
                 }
@@ -52,7 +46,7 @@ struct CaptureView: View {
                                 RoundedRectangle(cornerRadius: 20)
                                     .fill(.black)
                                     .frame(width: 200, height: 50)
-                                Text("bananas!")
+                                Text("take photo")
                                     .foregroundColor(.yellow)
                             }
                         })
@@ -61,7 +55,7 @@ struct CaptureView: View {
                             RoundedRectangle(cornerRadius: 20)
                                 .fill(.black)
                                 .frame(width: 200, height: 50)
-                            Text("choose...")
+                            Text("choose photo")
                                 .foregroundColor(.yellow)
                         }
                     }
